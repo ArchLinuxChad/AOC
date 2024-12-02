@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 
-with open("input.bak", "r") as f:
+with open("input", "r") as f:
     puzzle = f.read()
 
 puzzle = puzzle.split("\n")
 
-DESC = False
+DES = False
 run = True
 count = 0
 for i in puzzle:
